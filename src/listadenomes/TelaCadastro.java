@@ -137,6 +137,7 @@ public class TelaCadastro extends javax.swing.JFrame {
         Nomes n = new Nomes(nome);
         
         dados.cadastraNome(n);
+        tfNome.setText("");
         
         
     }//GEN-LAST:event_btnAddActionPerformed
